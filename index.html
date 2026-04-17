@@ -204,25 +204,27 @@
                     </div>
                 </div>
                 <div class="venue-map-container">
-                    <div class="map-wrapper">
-                        <div class="map-image">
-                            <img src="https://images.unsplash.com/photo-1545893835-abaa50cbe628?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="上海国际会议中心位置">
-                            <div class="map-overlay">
-                                <div class="map-marker-location">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="map-actions">
-                            <a href="https://map.baidu.com/search/%E4%B8%8A%E6%B5%B7%E5%9B%BD%E9%99%85%E4%BC%9A%E8%AE%AE%E4%B8%AD%E5%BF%83/@13526057.815390617,3642714.331687142,15z" target="_blank" class="btn btn-map">
-                                <i class="fab fa-baidu"></i>
-                                <span>百度地图导航</span>
-                            </a>
-                            <a href="https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%E5%9B%BD%E9%99%85%E4%BC%9A%E8%AE%AE%E4%B8%AD%E5%BF%83&city=310100" target="_blank" class="btn btn-map">
-                                <i class="fas fa-map"></i>
-                                <span>高德地图导航</span>
-                            </a>
-                        </div>
+                    <div class="map-iframe-wrapper">
+                        <iframe 
+                            src="https://map.baidu.com/?newmap=1&ie=utf-8&s=s%26wd%3D%E4%B8%8A%E6%B5%B7%E5%9B%BD%E9%99%85%E4%BC%9A%E8%AE%AE%E4%B8%AD%E5%BF%83&output=html"
+                            width="100%" 
+                            height="400"
+                            frameborder="0"
+                            style="border:0; border-radius: 12px; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer">
+                        </iframe>
+                    </div>
+                    <div class="map-actions">
+                        <a href="https://map.baidu.com/search/%E4%B8%8A%E6%B5%B7%E5%9B%BD%E9%99%85%E4%BC%9A%E8%AE%AE%E4%B8%AD%E5%BF%83/@13526057.815390617,3642714.331687142,15z" target="_blank" class="btn btn-map">
+                            <i class="fab fa-baidu"></i>
+                            <span>百度地图导航</span>
+                        </a>
+                        <a href="https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%E5%9B%BD%E9%99%85%E4%BC%9A%E8%AE%AE%E4%B8%AD%E5%BF%83&city=310100" target="_blank" class="btn btn-map">
+                            <i class="fas fa-map"></i>
+                            <span>高德地图导航</span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -232,11 +234,47 @@
     <!-- 注册区 -->
     <section id="register" class="section">
         <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">立即注册</span>
+                <h2 class="section-title">加入我们，共创未来</h2>
+                <div class="section-divider"></div>
+            </div>
             <div class="register-container">
+                <div class="register-form-container">
+                    <form class="register-form" id="registerForm">
+                        <h3>注册信息</h3>
+                        <div class="form-group">
+                            <label for="fullName">姓名</label>
+                            <input type="text" id="fullName" name="fullName" required placeholder="请输入您的姓名">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">邮箱</label>
+                            <input type="email" id="email" name="email" required placeholder="请输入您的邮箱">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">手机号码</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="请输入您的手机号码">
+                        </div>
+                        <div class="form-group">
+                            <label for="company">公司/组织</label>
+                            <input type="text" id="company" name="company" placeholder="请输入您的公司或组织名称">
+                        </div>
+                        <div class="form-group">
+                            <label for="ticketType">票种</label>
+                            <select id="ticketType" name="ticketType" required>
+                                <option value="">请选择票种</option>
+                                <option value="standard">标准票 - ¥1,999</option>
+                                <option value="vip">VIP票 - ¥3,999</option>
+                            </select>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="agreement" name="agreement" required>
+                            <label for="agreement">我已阅读并同意<a href="#">参会条款</a>和<a href="#">隐私政策</a></label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">提交注册</button>
+                    </form>
+                </div>
                 <div class="register-content">
-                    <span class="section-subtitle">立即注册</span>
-                    <h2 class="section-title">加入我们，共创未来</h2>
-                    <p class="register-description">早鸟票限时优惠中！立即注册享受专属折扣，与全球科技精英面对面交流。</p>
                     <div class="ticket-types">
                         <div class="ticket-card">
                             <div class="ticket-header">
@@ -276,40 +314,6 @@
                             <button class="btn btn-primary ticket-btn" data-ticket="vip">选择此票</button>
                         </div>
                     </div>
-                </div>
-                <div class="register-form-container">
-                    <form class="register-form" id="registerForm">
-                        <h3>注册信息</h3>
-                        <div class="form-group">
-                            <label for="fullName">姓名</label>
-                            <input type="text" id="fullName" name="fullName" required placeholder="请输入您的姓名">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">邮箱</label>
-                            <input type="email" id="email" name="email" required placeholder="请输入您的邮箱">
-                        </div>
-                        <div class="form-group">
-                            <label for="phone">手机号码</label>
-                            <input type="tel" id="phone" name="phone" required placeholder="请输入您的手机号码">
-                        </div>
-                        <div class="form-group">
-                            <label for="company">公司/组织</label>
-                            <input type="text" id="company" name="company" placeholder="请输入您的公司或组织名称">
-                        </div>
-                        <div class="form-group">
-                            <label for="ticketType">票种</label>
-                            <select id="ticketType" name="ticketType" required>
-                                <option value="">请选择票种</option>
-                                <option value="standard">标准票 - ¥1,999</option>
-                                <option value="vip">VIP票 - ¥3,999</option>
-                            </select>
-                        </div>
-                        <div class="form-group checkbox-group">
-                            <input type="checkbox" id="agreement" name="agreement" required>
-                            <label for="agreement">我已阅读并同意<a href="#">参会条款</a>和<a href="#">隐私政策</a></label>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-block">提交注册</button>
-                    </form>
                 </div>
             </div>
         </div>
