@@ -1112,7 +1112,13 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
-    align-items: start;
+    align-items: stretch;
+}
+
+.register-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .register-description {
@@ -1126,6 +1132,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    flex: 1;
+    height: 100%;
 }
 
 .ticket-card {
@@ -1136,6 +1144,9 @@ body {
     position: relative;
     transition: var(--transition);
     width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .ticket-card:hover {
@@ -1198,6 +1209,7 @@ body {
 .ticket-features {
     list-style: none;
     margin-bottom: 2rem;
+    flex: 1;
 }
 
 .ticket-features li {
@@ -1215,6 +1227,7 @@ body {
 
 .ticket-btn {
     width: 100%;
+    margin-top: auto;
 }
 
 .register-form-container {
