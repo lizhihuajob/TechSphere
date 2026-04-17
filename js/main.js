@@ -369,7 +369,7 @@ const modalBody = document.getElementById('modalBody');
 const agendaTabs = document.getElementById('agendaTabs');
 const agendaContent = document.getElementById('agendaContent');
 const registerForm = document.getElementById('registerForm');
-const ticketBtns = document.querySelectorAll('.ticket-btn');
+const ticketCards = document.querySelectorAll('.ticket-card');
 const ticketTypeSelect = document.getElementById('ticketType');
 const particlesContainer = document.getElementById('particles');
 
@@ -633,18 +633,20 @@ function setupEventListeners() {
         });
     }
     
-    // 票种选择按钮
-    ticketBtns.forEach(btn => {
-        btn.addEventListener('click', () => {
-            const ticketType = btn.dataset.ticket;
+    // 票种卡片点击选中
+    ticketCards.forEach(card => {
+        card.addEventListener('click', () => {
+            const ticketType = card.dataset.ticket;
+            
+            // 移除所有卡片的active类
+            ticketCards.forEach(c => c.classList.remove('active'));
+            
+            // 为当前点击的卡片添加active类
+            card.classList.add('active');
+            
+            // 更新表单中的票种选择
             if (ticketTypeSelect) {
                 ticketTypeSelect.value = ticketType;
-                
-                // 滚动到表单
-                const registerSection = document.getElementById('register');
-                if (registerSection) {
-                    registerSection.scrollIntoView({ behavior: 'smooth' });
-                }
             }
         });
     });
