@@ -5,7 +5,7 @@ const speakersData = [
         name: "张明远",
         title: "AI 研究总监",
         company: "未来科技集团",
-        image: "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=professional%20asian%20male%20tech%20executive%20portrait%20headshot%20clean%20background&image_size=square",
+        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
         bio: "张明远博士拥有20年人工智能研究经验，曾在多家顶级科技公司担任要职。他的研究领域涵盖深度学习、自然语言处理和计算机视觉。在加入未来科技集团之前，他曾在Google Brain担任高级研究员，主导了多个重要的AI项目。",
         topics: ["人工智能", "深度学习", "NLP", "计算机视觉"],
         social: {
@@ -18,7 +18,7 @@ const speakersData = [
         name: "李晓华",
         title: "云计算架构师",
         company: "云端科技有限公司",
-        image: "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=professional%20asian%20female%20tech%20architect%20portrait%20headshot%20clean%20background&image_size=square",
+        image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
         bio: "李晓华是云计算领域的资深专家，专注于大规模分布式系统设计和微服务架构。她曾主导多个超大型云平台的架构设计，帮助企业实现数字化转型。她是Kubernetes和Docker的早期贡献者之一。",
         topics: ["云计算", "微服务", "Kubernetes", "容器化"],
         social: {
@@ -31,7 +31,7 @@ const speakersData = [
         name: "王建国",
         title: "区块链技术专家",
         company: "链信科技",
-        image: "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=professional%20asian%20male%20blockchain%20expert%20portrait%20headshot%20clean%20background&image_size=square",
+        image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
         bio: "王建国是区块链和分布式账本技术的先驱者，拥有超过10年的相关经验。他参与了多个国家级区块链项目的设计和实施，同时也是多个开源区块链项目的核心贡献者。他的研究兴趣包括共识机制、智能合约安全和DeFi应用。",
         topics: ["区块链", "智能合约", "DeFi", "Web3.0"],
         social: {
@@ -44,7 +44,7 @@ const speakersData = [
         name: "陈雨萱",
         title: "量子计算研究员",
         company: "量子科技研究院",
-        image: "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=professional%20asian%20female%20scientist%20researcher%20portrait%20headshot%20clean%20background&image_size=square",
+        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
         bio: "陈雨萱博士是量子计算领域的青年科学家，专注于量子算法和量子机器学习的研究。她曾在MIT和IBM量子计算中心从事研究工作，发表了多篇高质量学术论文。她目前致力于探索量子计算在实际问题中的应用。",
         topics: ["量子计算", "量子算法", "量子机器学习", "QML"],
         social: {
@@ -57,7 +57,7 @@ const speakersData = [
         name: "刘志强",
         title: "边缘计算专家",
         company: "智联科技",
-        image: "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=professional%20asian%20male%20iot%20expert%20portrait%20headshot%20clean%20background&image_size=square",
+        image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
         bio: "刘志强在物联网和边缘计算领域拥有15年以上的经验。他专注于低功耗设备和实时数据处理系统的设计，曾主导多个大型物联网项目的实施。他是边缘计算标准制定的积极参与者。",
         topics: ["边缘计算", "物联网", "实时处理", "5G应用"],
         social: {
@@ -70,7 +70,7 @@ const speakersData = [
         name: "赵雅琳",
         title: "数据科学家",
         company: "数据洞察科技",
-        image: "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=professional%20asian%20female%20data%20scientist%20portrait%20headshot%20clean%20background&image_size=square",
+        image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
         bio: "赵雅琳是一位经验丰富的数据科学家，擅长将复杂的数据转化为有价值的商业洞察。她曾为多家财富500强企业提供数据分析咨询服务，帮助他们建立数据驱动的决策机制。她的专长包括预测分析、用户行为分析和数据可视化。",
         topics: ["数据科学", "机器学习", "数据可视化", "预测分析"],
         social: {
@@ -83,7 +83,7 @@ const speakersData = [
         name: "孙浩然",
         title: "安全技术总监",
         company: "安全卫士科技",
-        image: "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=professional%20asian%20male%20cybersecurity%20expert%20portrait%20headshot%20clean%20background&image_size=square",
+        image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
         bio: "孙浩然是网络安全领域的资深专家，拥有超过20年的从业经验。他曾在政府和企业担任安全顾问，专注于威胁检测、渗透测试和安全架构设计。他是多个国际安全会议的常客，分享前沿的安全研究成果。",
         topics: ["网络安全", "威胁检测", "渗透测试", "零信任"],
         social: {
@@ -96,7 +96,7 @@ const speakersData = [
         name: "周美玲",
         title: "产品创新总监",
         company: "创新工场",
-        image: "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=professional%20asian%20female%20product%20manager%20portrait%20headshot%20clean%20background&image_size=square",
+        image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
         bio: "周美玲是一位成功的产品经理和创新领导者，曾主导多个从0到1的产品创新项目。她擅长将技术趋势转化为用户价值，拥有敏锐的市场洞察力。她经常在各大产品和创业活动中分享产品思维和创新方法论。",
         topics: ["产品创新", "用户体验", "设计思维", "创业"],
         social: {
@@ -372,14 +372,8 @@ const registerForm = document.getElementById('registerForm');
 const ticketBtns = document.querySelectorAll('.ticket-btn');
 const ticketTypeSelect = document.getElementById('ticketType');
 const particlesContainer = document.getElementById('particles');
-const mapGrid = document.getElementById('mapGrid');
-const mapMarkers = document.querySelectorAll('.map-marker');
-const zoomInBtn = document.getElementById('zoomIn');
-const zoomOutBtn = document.getElementById('zoomOut');
-const resetMapBtn = document.getElementById('resetMap');
 
 // 全局变量
-let currentZoom = 1;
 let currentDay = 'day1';
 
 // 初始化函数
@@ -658,47 +652,6 @@ function setupEventListeners() {
     // 表单提交
     if (registerForm) {
         registerForm.addEventListener('submit', handleFormSubmit);
-    }
-    
-    // 地图控制
-    if (zoomInBtn) {
-        zoomInBtn.addEventListener('click', () => {
-            if (currentZoom < 2) {
-                currentZoom += 0.2;
-                updateMapZoom();
-            }
-        });
-    }
-    
-    if (zoomOutBtn) {
-        zoomOutBtn.addEventListener('click', () => {
-            if (currentZoom > 0.6) {
-                currentZoom -= 0.2;
-                updateMapZoom();
-            }
-        });
-    }
-    
-    if (resetMapBtn) {
-        resetMapBtn.addEventListener('click', () => {
-            currentZoom = 1;
-            updateMapZoom();
-        });
-    }
-    
-    // 地图标记点击
-    mapMarkers.forEach(marker => {
-        marker.addEventListener('click', () => {
-            mapMarkers.forEach(m => m.classList.remove('active'));
-            marker.classList.add('active');
-        });
-    });
-}
-
-// 更新地图缩放
-function updateMapZoom() {
-    if (mapGrid) {
-        mapGrid.style.transform = `scale(${currentZoom})`;
     }
 }
 

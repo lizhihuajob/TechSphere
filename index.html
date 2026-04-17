@@ -97,7 +97,7 @@
                 </div>
                 <div class="about-visual">
                     <div class="about-image">
-                        <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=modern%20tech%20conference%20hall%20with%20audience%20and%20stage%20professional%20photography%20wide%20angle&image_size=landscape_4_3" alt="峰会现场">
+                        <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="峰会现场">
                     </div>
                 </div>
             </div>
@@ -204,69 +204,24 @@
                     </div>
                 </div>
                 <div class="venue-map-container">
-                    <div class="map-placeholder" id="mapPlaceholder">
-                        <div class="map-content">
-                            <i class="fas fa-map-marked-alt"></i>
-                            <h3>上海国际会议中心</h3>
-                            <p>上海市浦东新区滨江大道2727号</p>
-                            <div class="map-controls">
-                                <button class="map-btn" id="zoomIn">
-                                    <i class="fas fa-plus"></i>
-                                </button>
-                                <button class="map-btn" id="zoomOut">
-                                    <i class="fas fa-minus"></i>
-                                </button>
-                                <button class="map-btn" id="resetMap">
-                                    <i class="fas fa-compress"></i>
-                                </button>
+                    <div class="map-wrapper">
+                        <div class="map-image">
+                            <img src="https://images.unsplash.com/photo-1545893835-abaa50cbe628?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="上海国际会议中心位置">
+                            <div class="map-overlay">
+                                <div class="map-marker-location">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
                             </div>
                         </div>
-                        <div class="map-grid" id="mapGrid">
-                            <div class="map-marker active" data-location="main" style="left: 50%; top: 40%;">
-                                <i class="fas fa-map-pin"></i>
-                                <span>主会场</span>
-                            </div>
-                            <div class="map-marker" data-location="hall-a" style="left: 30%; top: 35%;">
-                                <i class="fas fa-map-pin"></i>
-                                <span>A厅</span>
-                            </div>
-                            <div class="map-marker" data-location="hall-b" style="left: 70%; top: 35%;">
-                                <i class="fas fa-map-pin"></i>
-                                <span>B厅</span>
-                            </div>
-                            <div class="map-marker" data-location="workshop" style="left: 40%; top: 60%;">
-                                <i class="fas fa-map-pin"></i>
-                                <span>工作坊区</span>
-                            </div>
-                            <div class="map-marker" data-location="exhibition" style="left: 60%; top: 60%;">
-                                <i class="fas fa-map-pin"></i>
-                                <span>展区</span>
-                            </div>
-                            <div class="map-marker" data-location="food" style="left: 25%; top: 65%;">
-                                <i class="fas fa-map-pin"></i>
-                                <span>餐饮区</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="map-legend">
-                        <h4>场馆图例</h4>
-                        <div class="legend-items">
-                            <div class="legend-item">
-                                <span class="legend-dot main"></span>
-                                <span>主会场</span>
-                            </div>
-                            <div class="legend-item">
-                                <span class="legend-dot hall"></span>
-                                <span>分会场</span>
-                            </div>
-                            <div class="legend-item">
-                                <span class="legend-dot workshop"></span>
-                                <span>工作坊区</span>
-                            </div>
-                            <div class="legend-item">
-                                <span class="legend-dot other"></span>
-                                <span>其他区域</span>
-                            </div>
+                        <div class="map-actions">
+                            <a href="https://map.baidu.com/search/%E4%B8%8A%E6%B5%B7%E5%9B%BD%E9%99%85%E4%BC%9A%E8%AE%AE%E4%B8%AD%E5%BF%83/@13526057.815390617,3642714.331687142,15z" target="_blank" class="btn btn-map">
+                                <i class="fab fa-baidu"></i>
+                                <span>百度地图导航</span>
+                            </a>
+                            <a href="https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%E5%9B%BD%E9%99%85%E4%BC%9A%E8%AE%AE%E4%B8%AD%E5%BF%83&city=310100" target="_blank" class="btn btn-map">
+                                <i class="fas fa-map"></i>
+                                <span>高德地图导航</span>
+                            </a>
                         </div>
                     </div>
                 </div>
