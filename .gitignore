@@ -1,0 +1,70 @@
+# 操作系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 临时文件
+*.tmp
+*.temp
+*.cache
+tmp/
+temp/
+cache/
+
+# 构建输出（虽然是静态项目，但保留通用忽略）
+dist/
+build/
+out/
+.next/
+.nuxt/
+
+# 依赖目录（虽然是纯前端静态项目，但如果有package.json的话）
+node_modules/
+bower_components/
+
+# 测试覆盖率
+coverage/
+.nyc_output/
+
+# Docker相关（保留必要的配置文件，忽略临时构建文件）
+.dockerignore
+
+# 图片缓存（如果有的话）
+*.cache
+*.thumb
+
+# 其他
+*.pid
+*.seed
+*.pid.lock
